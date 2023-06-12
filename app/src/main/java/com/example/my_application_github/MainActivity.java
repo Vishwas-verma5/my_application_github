@@ -11,9 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView textView=findViewById(R.id.tv_name);
-        textView.setText("This is a textView");
-        textView.setText("This is a textView");
-
+        TextView tv=findViewById(R.id.tv);
+        tv.setText("This is a Pushpendra");
     }
 }
